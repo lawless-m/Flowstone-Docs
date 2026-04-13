@@ -1,8 +1,12 @@
-name: Build Flowstone-Docs zip
+name: Publish Flowstone-Docs zip via Pages
 
-# Rebuild Flowstone-Docs.zip whenever a note (or the build script / this
-# workflow itself) changes on main, and publish it as a release artifact
-# on the "latest" tag so flowstone-wasm can fetch a stable URL.
+# Rebuild Flowstone-Docs.zip on every push that touches a note, the
+# build script, or this workflow itself, and publish it through GitHub
+# Pages. flowstone-wasm then fetches it cross-origin from
+# https://lawless-m.github.io/Flowstone-Docs/Flowstone-Docs.zip — Pages
+# sends Access-Control-Allow-Origin: * by default, which release assets
+# (redirected to Azure blob storage) do not.
+
 on:
   push:
     branches: [main]
@@ -10,12 +14,22 @@ on:
       - '**.md'
       - 'scripts/build-zip.sh'
       - '.github/workflows/build-zip.yml'
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+# Do not let concurrent pushes overwrite each other mid-publish. A new
+# push cancels any in-flight queued run but lets the one actually
+# deploying finish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  build-zip:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -24,13 +38,37 @@ jobs:
       - name: Build Flowstone-Docs.zip
         run: ./scripts/build-zip.sh
 
-      - name: Upload release artifact
-        uses: softprops/action-gh-release@v2
+      - name: Stage _site/ for Pages
+        run: |
+          mkdir -p _site
+          mv Flowstone-Docs.zip _site/
+          cat > _site/index.html <<'EOF'
+          <!DOCTYPE html>
+          <meta charset="UTF-8">
+          <title>Flowstone-Docs</title>
+          <style>
+            body { font-family: ui-monospace, 'SF Mono', Menlo, monospace; max-width: 640px; margin: 40px auto; padding: 0 20px; background: #1b1b1b; color: #e8e8e8; }
+            a { color: #6af; }
+            code { background: #111; padding: 1px 4px; border-radius: 2px; }
+          </style>
+          <h1>Flowstone-Docs</h1>
+          <p>Auto-built corpus zip from the latest <a href="https://github.com/lawless-m/Flowstone-Docs">main</a> branch.</p>
+          <p>Direct download: <a href="Flowstone-Docs.zip">Flowstone-Docs.zip</a></p>
+          <p>Consumed by the in-browser Flowstone demo at <a href="https://steponnopets.net/flowstone/">steponnopets.net/flowstone</a>.</p>
+          EOF
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          tag_name: latest
-          name: Latest corpus
-          body: Auto-built corpus zip from latest main.
-          files: Flowstone-Docs.zip
-          make_latest: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
