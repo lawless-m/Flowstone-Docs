@@ -1,8 +1,8 @@
 name: Build Flowstone-Docs zip
 
 # Rebuild Flowstone-Docs.zip whenever a note (or the build script / this
-# workflow itself) changes on main, and commit the fresh zip back so the
-# raw.githubusercontent URL served to flowstone-wasm is always current.
+# workflow itself) changes on main, and publish it as a release artifact
+# on the "latest" tag so flowstone-wasm can fetch a stable URL.
 on:
   push:
     branches: [main]
@@ -11,7 +11,6 @@ on:
       - 'scripts/build-zip.sh'
       - '.github/workflows/build-zip.yml'
 
-# Needed so the bot commit can push the regenerated zip back to main.
 permissions:
   contents: write
 
@@ -25,19 +24,13 @@ jobs:
       - name: Build Flowstone-Docs.zip
         run: ./scripts/build-zip.sh
 
-      - name: Commit and push if the zip changed
-        run: |
-          # Porcelain handles both "first run, untracked" and
-          # "subsequent run, modified"; an empty output means no change
-          # and we exit cleanly.
-          if [[ -z "$(git status --porcelain Flowstone-Docs.zip)" ]]; then
-            echo "Zip unchanged; nothing to commit."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Flowstone-Docs.zip
-          # [skip ci] keeps the bot's own commit from re-triggering the
-          # workflow and making a second empty one.
-          git commit -m "chore: regenerate Flowstone-Docs.zip [skip ci]"
-          git push
+      - name: Upload release artifact
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Latest corpus
+          body: Auto-built corpus zip from latest main.
+          files: Flowstone-Docs.zip
+          make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
