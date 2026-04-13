@@ -1,0 +1,21 @@
+# Flowstone
+
+A [[rust]] [[cli-tools]] tool that turns a folder of Markdown files into a queryable knowledge graph, backed by [[CozoDB]] and Datalog.
+
+**Repo:** `~/Git/Flowstone`
+**Themes:** [[rust]], [[cli-tools]], [[CozoDB]], [[redb]], [[knowledge-graph]], [[full-text-search]]
+
+Flowstone parses `[[wiki-link]]` syntax (and `#tags`) out of plain Markdown, loads notes, links and tags into [[CozoDB]] as relations, and gives you two ways to explore the graph: a Datalog REPL, or an Axum-hosted web UI with a D3 force graph, a tag sidebar, [[full-text-search]] via Cozo's [[tantivy]] FTS, a filesystem watcher that reloads on edit, and a detail panel that renders each note's Markdown body with clickable wiki-links. Notes are the source of truth — the database is purely derived and rebuilt on each run.
+
+The crate is now a small workspace: a `flowstone-core` library holds the schema, parser, and bulk loaders, while the `flowstone` binary is the CLI and server on top. CozoDB comes in via a sibling path dependency on [[cozordb]] (the fork carrying the redb storage backend).
+
+## Related
+
+- [[cozordb]] — the Cozo fork with the redb backend Flowstone depends on
+- [[CozoDB]]
+- [[redb]]
+- [[rust]]
+- [[cli-tools]]
+- [[knowledge-graph]]
+- [[full-text-search]]
+- [[tantivy]]
