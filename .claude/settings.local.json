@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.md$|\\\\.json$|csproj$|Cargo\\\\.toml|package\\\\.json|PROJECT|CLAUDE\")",
+      "Bash(cat \"/c/Users/matthew.heath/Git/CGI-Sharp/HTMLDataTable/publish-trimmed/\"*.exe)",
+      "Bash(grep -E \"\\\\.\\(bas|vb|py|sh|ps1|exe|bat|cmd\\)$\")",
+      "Bash(grep -l \"ExportMaster\\\\|E3Ax\\\\|VBScript\" *.bas)",
+      "Bash(grep -E \"\\(package\\\\.json|.*\\\\.csproj|.*\\\\.vbproj|\\\\.md$\\)\")",
+      "Bash(grep -E \"\\\\.\\(md|txt\\)$\")",
+      "Bash(unzip -l lenz-preview-spec.zip)",
+      "Bash(unzip -q lenz-preview-spec.zip)",
+      "Bash(file *)",
+      "Bash(xargs wc:*)",
+      "Bash(grep -E \"\\\\.\\(md|json|config|xml\\)$\")",
+      "Bash(xargs grep:*)",
+      "Bash(node -e ':*)"
+    ]
+  }
+}

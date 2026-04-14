@@ -10,14 +10,3 @@ VRAM doled out across whichever services happen to need inference.
 Qwen 2.5 Coder is the specialised coding variant, and any project in
 this corpus that mentions a "QwenCoder Bot" is really talking about a
 small pipeline around that model.
-
-## Members
-
-- [[Caturiel]] — uses Qwen (via Ollama) to decide what to post to Clacker-News and to write the commentary
-- [[Gwen]] — "QwenCoder Bot", a two-tier autonomous coding agent using Qwen 2.5 Coder 7B for issue triage and 14B for implementation, driving fixes to [[Gogs]] tickets
-
-## Related themes
-
-- [[ollama]]
-- [[bots]]
-- [[rust]]

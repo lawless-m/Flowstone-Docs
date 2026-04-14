@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "session_id": "67f438ab-f74f-4438-91e6-1012a76877b7",
+  "timestamp": "2026-04-13T13:26:13.292174+00:00",
+  "machine_id": "RIVMIS01",
+  "project_dir": "C:/Users/matthew.heath/Git/Flowstone-Docs",
+  "git": {
+    "remote": "git@github.com:lawless-m/Flowstone-Docs.git",
+    "branch": "main",
+    "commit": "fe3564cf2c262e17310ad2c82f833f3f14d0a555"
+  },
+  "conversation": [
+    {
+      "type": "user",
+      "timestamp": "2026-04-13T13:26:08.301Z",
+      "content": "do you have a flowstone skill yet?"
+    },
+    {
+      "type": "assistant",
+      "timestamp": "2026-04-13T13:26:12.330Z",
+      "content": "Yes — there's a **Flowstone Docs** skill available. It covers writing Flowstone-compatible project notes and hub notes with `[[wiki-links]]` for building a knowledge graph across a multi-repo corpus.\n\nWant me to invoke it, or were you asking about something else?",
+      "usage": {
+        "input_tokens": 3,
+        "output_tokens": 120,
+        "cache_creation_input_tokens": 6625,
+        "cache_read_input_tokens": 11270
+      }
+    }
+  ]
+}
