@@ -6,10 +6,3 @@ A [[rust]] [[cli-tools]] utility — the binary is called `devlog` — that capt
 **Themes:** [[rust]], [[cli-tools]], [[claude-tooling]]
 
 Filters the raw JSONL to user prompts, assistant text responses and tool summaries, then enriches each session with git metadata (remote, branch, commit). Output files are named `YYYY-MM-DD-HHMMSS-<session_id_short>.json` and live in `.devlog/` inside each project. Wired up through Claude Code's `PreCompact` and `SessionEnd` hooks via `.claude/settings.json`, so every project accumulates its own conversation history automatically. Most other repos in this corpus already carry a `.devlog/` folder — this is the tool that writes them. (It's also how the "Versatile over Ethernet" hallucination showed up in [[VoE]]'s devlog files — a hallucinated cover story, preserved for posterity.)
-
-## Related
-
-- [[Claude-Skills]] — companion Claude Code tooling
-- [[rust]]
-- [[cli-tools]]
-- [[claude-tooling]]

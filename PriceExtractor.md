@@ -6,10 +6,3 @@ A [[RocsMiddleware]] overnight batch service that loads pricing data from [[parq
 **Themes:** [[csharp]], [[dotnet]], [[parquet]], [[DuckDB]]
 
 Reads price discount parquet files through [[DuckDB]], queries [[elasticsearch]] for the current pricing period, and upserts into PostgreSQL `rocs.price_discount` with hash-based change tracking. Supports full and per-customer incremental modes.
-
-## Related
-
-- [[RocsMiddleware]]
-- [[PriceDiscountUploader]] — downstream: pushes changes to Elasticsearch
-- [[parquet]]
-- [[DuckDB]]

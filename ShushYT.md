@@ -6,8 +6,3 @@ A tiny browser extension (built for Vivaldi, Manifest V3 style) that automatical
 **Themes:** [[browser-extension]]
 
 Three files: `manifest.json`, `background.js` (tab mute/unmute logic and message handling), and `content.js` (the content script that watches the YouTube ad container DOM). Loads through `vivaldi://extensions` → "Load unpacked". The extension mutes every YouTube tab on load, monitors the ad container, and unmutes once the ad finishes. Sibling to [[DLPlug]] as the second browser extension in the corpus.
-
-## Related
-
-- [[DLPlug]] — sibling browser extension (VLC streamer via yt-dlp)
-- [[browser-extension]]

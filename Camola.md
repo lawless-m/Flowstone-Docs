@@ -6,7 +6,3 @@ A [[rust]] real-time webcam pipeline — "Webcam FX" — that segments you from 
 **Themes:** [[rust]]
 
 Captures at 1080p, segments with RobustVideoMatting (primary) or MODNet (fallback) for alpha matting, composites, and outputs 720p @ 30fps to v4l2loopback. Runs on Linux with an NVIDIA RTX 3070/4070 via CUDA/TensorRT. Effect roster planned at last touch: background replacement, trails (ghosting / blur / chroma / glitch), plasma (demoscene colours), glitch (corruption / RGB split), cyberspace (Max Headroom style), and face mesh (wireframe overlay). Each effect has its own spec document — the pipeline itself is built in stages from a camera-to-loopback passthrough up through segmentation, background replacement and procedural effects.
-
-## Related
-
-- [[rust]]

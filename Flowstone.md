@@ -14,16 +14,3 @@ The crate is now a small workspace: a `flowstone-core` library holds the schema,
 * send updates to documents on the phone just like this
 * directed graph for pm - can't do this until I've done that
 * e.g. once i have that i can do gannt charts!
-
-
-
-## Related
-
-- [[cozordb]] — the Cozo fork with the redb backend Flowstone depends on
-- [[CozoDB]]
-- [[redb]]
-- [[rust]]
-- [[cli-tools]]
-- [[knowledge-graph]]
-- [[full-text-search]]
-- [[tantivy]]

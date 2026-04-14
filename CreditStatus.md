@@ -6,9 +6,3 @@ A [[RocsMiddleware]] service that fetches customer credit limits and unpaid amou
 **Themes:** [[csharp]], [[dotnet]], [[sage-x3]]
 
 Calls the X3 Credit Status endpoint for individual or all customers and stores results in PostgreSQL `x3.credit_status` with timestamp tracking.
-
-## Related
-
-- [[RocsMiddleware]]
-- [[CreditStatusCGI]] — downstream: serves this data as CSV
-- [[sage-x3]]

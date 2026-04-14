@@ -6,10 +6,3 @@ A [[csharp]] desktop notice widget that displays corporate announcements in an a
 **Themes:** [[csharp]], [[dotnet]], [[Gogs]]
 
 Hedwigg embeds a WebView2 browser control in an Avalonia window that sits above the wallpaper but below all other windows — persistent, undismissable, and deployed to ~100 machines via Group Policy. The notice content comes from an internal web app on rivsprod02. Supports urgent/important/normal priority levels, Windows Integrated Authentication, and Freshdesk integration. Hosted on [[Gogs]] at [[dw.ramsden-international.com]].
-
-## Related
-
-- [[csharp]]
-- [[dotnet]]
-- [[Gogs]]
-- [[dw.ramsden-international.com]]

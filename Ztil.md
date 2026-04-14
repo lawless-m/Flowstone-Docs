@@ -6,9 +6,3 @@ A [[rust]] emulator for the **Research Machines 380Z** — a British 8-bit Z80 m
 **Themes:** [[rust]], [[z80]], [[wasm]]
 
 Workspace members: `rm380z-core` (the emulator engine), `rm380z` (the native runner binary), `rm380z-server` (a web server front end), `rm380z-wasm` (the WebAssembly build), and a `z80/` crate that almost certainly holds the CPU emulation itself. `disks/` holds disk images for software to load. Documentation lives in `zip-til-docs/`, extracted from a zip — the spec-then-implementation pattern again. A `deploy/` folder hints at a hosted version, and a tiny `run` script sits at the root as a convenience launcher. Retrocomputing labour of love rather than anything practical.
-
-## Related
-
-- [[rust]]
-- [[z80]]
-- [[wasm]]

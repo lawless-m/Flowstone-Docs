@@ -6,7 +6,3 @@ An essentially empty repository — at last inspection the `~/Git/GitScan/` dire
 **Themes:** (none)
 
 **Status:** effectively nothing. The name suggests a planned tool for scanning Git repositories, probably paired or overlapping with sibling [[GitSkan]], but at last inspection no work had been committed. Worth either seeding with actual content, deleting, or folding into GitSkan — currently takes up a slot in the corpus for no benefit.
-
-## Related
-
-- [[GitSkan]] — similarly-named sibling, also pre-implementation

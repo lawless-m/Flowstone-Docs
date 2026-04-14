@@ -6,9 +6,3 @@ A [[RocsMiddleware]] service that extracts invoices from [[ExportMaster]] and st
 **Themes:** [[csharp]], [[dotnet]], [[ExportMaster]], [[ODBC]]
 
 Queries [[ExportMaster]] via [[ODBC]] in batches of 100, enriches with customer dimension data from PostgreSQL, and bulk inserts headers and lines in a single transaction. Smart filtering skips already-extracted invoices.
-
-## Related
-
-- [[RocsMiddleware]]
-- [[InvoiceUploader]] — downstream: uploads these invoices to X3
-- [[ExportMaster]]

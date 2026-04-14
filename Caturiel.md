@@ -6,10 +6,3 @@ A [[rust]] bot that monitors Reddit for anti-AI sentiment and posts Uriel-voiced
 **Themes:** [[rust]], [[ollama]], [[bots]], [[Clacker-News]], [[SQLite]]
 
 Caturiel uses [[ollama]] (Qwen models) to pick what to post and to write the commentary. It persists seen-content state in [[SQLite]] and notifies via ntfy.sh. The personality is deliberately terse and deadpan — it points out irony without cruelty.
-
-## Related
-
-- [[Clacker-News]] — the forum Caturiel posts to
-- [[rust]]
-- [[bots]]
-- [[ollama]]

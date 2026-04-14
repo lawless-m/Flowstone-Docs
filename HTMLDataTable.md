@@ -35,16 +35,3 @@ Key fields: `dsn` (connection target), `sql` (inline array) or `sqlfile` (extern
 ```
 
 Types map from .NET: `string`, `datetime` (ISO 8601), `integer`, `number`, `boolean`, `object`. Nulls are JSON `null`. [[PowerQueries]] contains Power Query M modules for consuming this format in Power BI and Excel.
-
-## Related
-
-- [[CGI-Sharp]] — the source project that builds this executable
-- [[PowerQueries]] — Power Query modules for processing the output
-- [[Dingo]] — consumer of this API for shipment data
-- [[csharp]]
-- [[dotnet]]
-- [[ODBC]]
-- [[DuckDB]]
-- [[DBISAM]]
-- [[ExportMaster]]
-- [[dw.ramsden-international.com]]

@@ -6,9 +6,3 @@ A [[RocsMiddleware]] service that incrementally syncs customer data from [[Expor
 **Themes:** [[csharp]], [[dotnet]], [[ExportMaster]], [[elasticsearch]], [[ODBC]]
 
 Combines ExportMaster customer profiles with CRM data from PostgreSQL, uses hash-based change detection to index only changed customers, and automatically removes obsolete records from Elasticsearch.
-
-## Related
-
-- [[RocsMiddleware]]
-- [[ExportMaster]]
-- [[elasticsearch]]

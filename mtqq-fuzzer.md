@@ -6,10 +6,3 @@ A [[python]] [[fuzzing]] harness — "MQTT 3.1.1 Protocol Fuzzer for boofuzz" �
 **Themes:** [[python]], [[fuzzing]]
 
 Built on boofuzz, like its iSCSI sibling [[boofuzz-iscsi]]. Covers the full MQTT 3.1.1 packet set: CONNECT, PUBLISH at QoS 0/1/2, SUBSCRIBE and UNSUBSCRIBE, PING, DISCONNECT, and the full QoS handshake (PUBACK / PUBREC / PUBREL / PUBCOMP). Edge cases include malformed UTF-8, invalid remaining-length encoding, oversized packets, duplicate CONNECT, reserved-bit abuse and wildcard (`+`, `#`) abuse in invalid positions. Target was Eclipse Mosquitto running under Docker, with an ASAN-instrumented build path for serious vulnerability hunting. That ASAN build path is what led to the [[FixErlang]] side quest: the Erlang-based EMQX broker's ASAN build kept crashing on an unrelated memory leak upstream in Erlang/OTP itself. Ships with a full Dockerfile for the ASAN mosquitto build and coverage tables for every packet type the fuzzer exercises. Motto borrowed from the README: *"the S in IoT stands for Security."*
-
-## Related
-
-- [[boofuzz-iscsi]] — sibling boofuzz harness for a different protocol
-- [[FixErlang]] — Erlang/OTP ASAN leak fix, surfaced while fuzzing EMQX
-- [[python]]
-- [[fuzzing]]

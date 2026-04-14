@@ -6,7 +6,3 @@ A standalone single-file HTML widget — "Finance Date Filter" — that presents
 **Themes:** (none)
 
 **Status:** single-file HTML demo. No build system, no dependencies, no README (the `README.md` file exists but is empty). The widget uses CSS grid layouts for half/quarter/month/day columns and looks like an experiment in a finance-centric replacement for a standard calendar date picker. Possibly extracted from a larger project or stored as a reference design.
-
-## Related
-
-- (none)

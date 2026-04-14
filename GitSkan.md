@@ -6,7 +6,3 @@ A planning-stage repository containing a 21 KB `PLAN.md` but no implementation, 
 **Themes:** (uncertain)
 
 **Status:** plan only. The `PLAN.md` file has restricted permissions (`-rw-------`) so its contents haven't been read for this note — read it next time you pass through the corpus to rewrite this from fact. Likely same or adjacent idea as [[GitScan]] (which has even less).
-
-## Related
-
-- [[GitScan]] — similarly-named sibling, effectively empty

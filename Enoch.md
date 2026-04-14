@@ -6,7 +6,3 @@ A project with no README at the repo root. Directory structure — `auth/`, `cli
 **Themes:** (uncertain)
 
 **Status:** note written from directory listing alone. Needs a pass with eyes on `enoch-docs/` (which has a matching extracted folder) to rewrite this honestly — or a root README from Matt next time the project is fresh in mind. The biblical name is Matt's usual style but gives no hint about the subject matter.
-
-## Related
-
-- (none yet — corpus doesn't know enough about this project to place it)

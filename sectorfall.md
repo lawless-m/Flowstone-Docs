@@ -6,7 +6,3 @@ A client-server project with `sectorfall-client/` and `sectorfall-server/` subfo
 **Themes:** (uncertain — likely a game)
 
 **Status:** the split into client and server crates suggests networked gameplay (multiplayer or at least a server-backed single-player). Recent `.devlog/` activity (newest of any repo in the corpus) hints the project is still being worked on actively. A peek into either `sectorfall-client/Cargo.toml` or the server's entry point next pass would tighten this note considerably.
-
-## Related
-
-- (none yet)

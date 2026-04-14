@@ -7,10 +7,3 @@ A [[javascript]] [[browser-extension]] that centralises quick links to internal 
 **Themes:** [[javascript]], [[browser-extension]], [[Gogs]]
 
 R.I.S.E (Ramsden Internal Service Extension) is a Chrome/Edge/Vivaldi extension providing one-click access to internal dashboards, quote management, ROCS API tools, image library utilities, and reporting. Config loaded from [[dw.ramsden-international.com]] with hardcoded fallback. Deployed via Group Policy, registry file, or manual CRX install. Hosted on [[Gogs]].
-
-## Related
-
-- [[javascript]]
-- [[browser-extension]]
-- [[Gogs]]
-- [[dw.ramsden-international.com]]
