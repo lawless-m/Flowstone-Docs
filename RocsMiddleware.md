@@ -3,7 +3,6 @@
 A [[csharp]] monorepo of 16 independent services that synchronise data between [[sage-x3]], [[ExportMaster]], [[elasticsearch]], [[Keycloak]], and PostgreSQL.
 
 **Repo:** `~/Git/RocsMiddleware`
-**Themes:** [[csharp]], [[dotnet]], [[sage-x3]], [[ExportMaster]], [[elasticsearch]], [[Keycloak]], [[ODBC]], [[parquet]], [[DBISAM]]
 
 RocsMiddleware is the data integration backbone for Ramsden International. All services are .NET 9 console apps running as Windows Scheduled Tasks on RIVSIS02, with PostgreSQL (`x3rocs` on rivsprod01) as the central hub. Data flows in from [[sage-x3]] and [[ExportMaster]], gets normalised in PostgreSQL with hash-based change tracking, then fans out to [[elasticsearch]], [[Keycloak]], and back to ExportMaster. No orchestrator — each tool runs independently and can be paused, rerun, or debugged in isolation.
 
