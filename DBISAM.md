@@ -1,3 +1,5 @@
 # DBISAM
 
-The file-based database engine behind [[ExportMaster]]. Accessed via ODBC or the ExportMaster COM DLL. Files use `.dat`, `.idx`, and `.blb` extensions on a network share.
+The file-based database engine behind [[ExportMaster]]. Files use `.dat`, `.idx`, and `.blb` extensions on a network share.
+
+Written in Delphi. Not very good actually. Limited index support, SQL92
