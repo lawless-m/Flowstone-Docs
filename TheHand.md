@@ -1,6 +1,6 @@
 # TheHand
 
-A [[rust]] voice-activated transcription tool that continuously listens, auto-records when you start speaking, transcribes with whisper.cpp when you stop, and types the result straight into whatever window has focus.
+A [[rust]] voice-activated transcription tool that continuously listens, auto-records when you start speaking, transcribes with [[Whisper]] when you stop, and types the result straight into whatever window has focus.
 
 **Repo:** `~/Git/TheHand`
 
