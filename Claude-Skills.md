@@ -4,4 +4,4 @@ A GitHub template repository containing reusable [[claude-tooling]] skills and s
 
 **Repo:** `~/Git/Claude-Skills`
 
-Each skill is a Markdown document teaching Claude a specific domain — Databases, Elasticsearch, Rust, SharePoint, Logging, Creating Skills, and roughly twenty more. Commands ship alongside: `/commit`, `/publish`, `/push`. Every project in this corpus that has a `.claude/skills/` folder is drawing from this template, and the Flowstone Docs skill producing these notes lives here too. Maintained internally at Gogs with a post-receive hook that mirrors to GitHub.
+Each skill is a Markdown document teaching Claude a specific domain — Databases, ElasticSearch, Rust, SharePoint, Logging, Creating Skills, and roughly twenty more. Commands ship alongside: `/commit`, `/publish`, `/push`. Every project in this corpus that has a `.claude/skills/` folder is drawing from this template, and the Flowstone Docs skill producing these notes lives here too. Maintained internally at Gogs with a post-receive hook that mirrors to GitHub.

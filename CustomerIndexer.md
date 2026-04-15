@@ -1,7 +1,7 @@
 # CustomerIndexer
 
-A [[RocsMiddleware]] service that incrementally syncs customer data from [[ExportMaster]] and PostgreSQL into [[elasticsearch]].
+A [[RocsMiddleware]] service that incrementally syncs customer data from [[ExportMaster]] and PostgreSQL into [[ElasticSearch]].
 
 **Repo:** `~/Git/RocsMiddleware/CustomerIndexer`
 
-Combines ExportMaster customer profiles with CRM data from PostgreSQL, uses hash-based change detection to index only changed customers, and automatically removes obsolete records from Elasticsearch.
+Combines ExportMaster customer profiles with CRM data from PostgreSQL, uses hash-based change detection to index only changed customers, and automatically removes obsolete records from ElasticSearch.

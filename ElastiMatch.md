@@ -1,6 +1,6 @@
 # ElastiMatch
 
-A [[RocsMiddleware]] diagnostic tool that compares [[elasticsearch]] indexes between production and staging clusters.
+A [[RocsMiddleware]] diagnostic tool that compares [[ElasticSearch]] indexes between production and staging clusters.
 
 **Repo:** `~/Git/RocsMiddleware/ElastiMatch`
 
