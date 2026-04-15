@@ -1,6 +1,6 @@
 # InvoiceUploader
 
-A [[RocsMiddleware]] service that uploads invoices from PostgreSQL to [[sage-x3]] via its REST API.
+A [[RocsMiddleware]] service that uploads invoices from PostgreSQL to [[Sage-X3]] via its REST API.
 
 **Repo:** `~/Git/RocsMiddleware/InvoiceUploader`
 
