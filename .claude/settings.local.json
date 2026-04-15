@@ -14,7 +14,10 @@
       "Bash(grep -E \"\\\\.\\(md|json|config|xml\\)$\")",
       "Bash(xargs grep:*)",
       "Bash(node -e ':*)",
-      "Bash(git mv *)"
+      "Bash(git mv *)",
+      "Bash(git pull *)",
+      "Bash(git stash *)",
+      "Bash(git add *)"
     ]
   }
 }
