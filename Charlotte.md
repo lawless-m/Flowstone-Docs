@@ -1,6 +1,6 @@
 # Charlotte
 
-A [[rust]] text-to-speech library wrapping a local F5-TTS server, with voice cloning and GPU memory management for sharing VRAM with other services.
+A [[rust]] [[text-to-speech]] library wrapping a local F5-TTS server, with voice cloning and GPU memory management for sharing VRAM with other services.
 
 **Repo:** `~/Git/Charlotte`
 **URL:** `https://dw.ramsden-international.com/charlotte/`
