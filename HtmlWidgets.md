@@ -1,6 +1,6 @@
 # HtmlWidgets
 
-A collection of standalone HTML/JS widgets — currently a financial date filter picker with hierarchical drill-down.
+A collection of standalone HTML/[[javascript]] widgets — currently a financial date filter picker with hierarchical drill-down, shared with [[DatePickMe]].
 
 **Repo:** `~/Git/HtmlWidgets`
 

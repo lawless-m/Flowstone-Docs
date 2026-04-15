@@ -1,6 +1,6 @@
 # DLPlug
 
-A Chrome/Edge extension (Manifest V3) that streams web videos to VLC via yt-dlp — click the extension icon on any page with a video and the backend native-messaging host pipes the yt-dlp-extracted URL straight into a running VLC, bypassing the browser's built-in player entirely.
+A Chrome/Edge [[browser-extension]] (Manifest V3) that streams web videos to VLC via yt-dlp — click the extension icon on any page with a video and the backend native-messaging host pipes the yt-dlp-extracted URL straight into a running VLC, bypassing the browser's built-in player entirely.
 
 **Repo:** `~/Git/DLPlug`
 
