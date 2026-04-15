@@ -1,6 +1,6 @@
 # PriceExtractor
 
-A [[RocsMiddleware]] overnight batch service that loads pricing data from [[parquet]] files into PostgreSQL via [[DuckDB]].
+A [[RocsMiddleware]] overnight batch service that loads pricing data from [[Parquet]] files into PostgreSQL via [[DuckDB]].
 
 **Repo:** `~/Git/RocsMiddleware/PriceExtractor`
 

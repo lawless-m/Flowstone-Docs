@@ -1,6 +1,6 @@
 # Pallets
 
-An ad-hoc data analysis project investigating pallet order volume discrepancies using Power BI, [[DuckDB]], and [[parquet]].
+An ad-hoc data analysis project investigating pallet order volume discrepancies using Power BI, [[DuckDB]], and [[Parquet]].
 
 **Repo:** `~/Git/Pallets`
 
