@@ -13,7 +13,8 @@
       "Bash(xargs wc:*)",
       "Bash(grep -E \"\\\\.\\(md|json|config|xml\\)$\")",
       "Bash(xargs grep:*)",
-      "Bash(node -e ':*)"
+      "Bash(node -e ':*)",
+      "Bash(git mv *)"
     ]
   }
 }
