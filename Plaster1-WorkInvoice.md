@@ -1,6 +1,6 @@
 # Plaster1-WorkInvoice
 
-A [[csharp]] tool that queries [[ExportMaster]] for repro shipment data and populates workload-invoice Excel templates on [[SharePoint]].
+A [[CSharp]] tool that queries [[ExportMaster]] for repro shipment data and populates workload-invoice Excel templates on [[SharePoint]].
 
 **Repo:** `~/Git/Plaster1-WorkInvoice`
 

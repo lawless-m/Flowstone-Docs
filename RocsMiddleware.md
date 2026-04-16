@@ -1,6 +1,6 @@
 # RocsMiddleware
 
-A [[csharp]] monorepo of 16 independent services that synchronise data between [[Sage-X3]], [[ExportMaster]], [[ElasticSearch]], [[Keycloak]], and [[PostgreSQL]].
+A [[CSharp]] monorepo of 16 independent services that synchronise data between [[Sage-X3]], [[ExportMaster]], [[ElasticSearch]], [[Keycloak]], and [[PostgreSQL]].
 
 **Repo:** `~/Git/RocsMiddleware`
 

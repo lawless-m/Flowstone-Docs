@@ -1,6 +1,6 @@
 # Declotter
 
-A [[csharp]] product description compressor that squeezes long product names into a 40-character database limit using AI-assisted abbreviation.
+A [[CSharp]] product description compressor that squeezes long product names into a 40-character database limit using AI-assisted abbreviation.
 
 **Repo:** `~/Git/Declotter`
 **URL:** `https://dw.ramsden-international.com/tiny02/cgi-bin/Declotter-Web-CGI.exe`

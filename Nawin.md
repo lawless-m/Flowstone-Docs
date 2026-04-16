@@ -1,6 +1,6 @@
 # Nawin
 
-A [[csharp]] / [[dotnet]] 9 implementation of the [[9P]]2000 protocol for connecting to [[Plan9]] and 9front file servers — a full wire-protocol client and server library with both legacy (p9sk1) and modern (dp9ik) authentication.
+A [[CSharp]] / [[dotnet]] 9 implementation of the [[9P]]2000 protocol for connecting to [[Plan9]] and 9front file servers — a full wire-protocol client and server library with both legacy (p9sk1) and modern (dp9ik) authentication.
 
 **Repo:** `~/Git/Nawin`
 

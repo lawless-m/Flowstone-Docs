@@ -1,6 +1,6 @@
 # Hedwigg
 
-A [[csharp]] desktop notice widget that displays corporate announcements in an always-visible, chromeless window using Avalonia and WebView2.
+A [[CSharp]] desktop notice widget that displays corporate announcements in an always-visible, chromeless window using Avalonia and WebView2.
 
 **Repo:** `~/Git/Hedwigg`
 

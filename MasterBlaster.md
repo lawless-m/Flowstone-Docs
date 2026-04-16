@@ -1,6 +1,6 @@
 # MasterBlaster
 
-A [[csharp]] desktop automation engine that drives legacy Windows apps over RDP using Claude vision.
+A [[CSharp]] desktop automation engine that drives legacy Windows apps over RDP using Claude vision.
 
 **Repo:** `~/Git/MasterBlaster`
 

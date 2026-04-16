@@ -1,6 +1,6 @@
 # ParquetToPostgres
 
-A [[csharp]] migration utility that loads price discount data from [[Parquet]] files via [[DuckDB]] into PostgreSQL.
+A [[CSharp]] migration utility that loads price discount data from [[Parquet]] files via [[DuckDB]] into PostgreSQL.
 
 **Repo:** `~/Git/ParquetToPostgres`
 

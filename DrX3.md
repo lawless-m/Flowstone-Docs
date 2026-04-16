@@ -1,6 +1,6 @@
 # DrX3
 
-A [[csharp]] database detective for Sage X3 ERP — extracts schema, discovers relationships, and generates ERD diagrams.
+A [[CSharp]] database detective for Sage X3 ERP — extracts schema, discovers relationships, and generates ERD diagrams.
 
 **Repo:** `~/Git/DrX3`
 

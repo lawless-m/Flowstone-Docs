@@ -1,6 +1,6 @@
 # Anthea
 
-A [[csharp]] price-lookup tool that bypasses a slow multi-service pricing pipeline by querying [[Parquet]] files directly via [[DuckDB]].
+A [[CSharp]] price-lookup tool that bypasses a slow multi-service pricing pipeline by querying [[Parquet]] files directly via [[DuckDB]].
 
 **Repo:** `~/Git/Anthea`
 **URL:** `https://dw.ramsden-international.com/tiny02/anthea.html`
