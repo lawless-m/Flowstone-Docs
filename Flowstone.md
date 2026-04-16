@@ -8,7 +8,7 @@ Flowstone parses `[[wiki-link]]` syntax (and `#tags`) out of plain Markdown, loa
 
 The crate is now a small workspace: a `flowstone-core` library holds the schema, parser, and bulk loaders, while the `flowstone` binary is the CLI and server on top. CozoDB comes in via a sibling path dependency on [[Cozordb]] (the fork carrying the [[Redb]] storage backend).
 
-[[todo]] 
+[[Todo]] 
 
 * send updates to documents on the phone just like this
 * directed graph for pm - can't do this until I've done that
