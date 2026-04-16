@@ -1,6 +1,6 @@
 # PgQuery
 
-A [[csharp]] CLI tool for executing SQL against PostgreSQL with JSON-based connection config.
+A [[CSharp]] CLI tool for executing SQL against [[PostgreSQL]] with JSON-based connection config.
 
 **Repo:** `~/Git/PgQuery`
 
