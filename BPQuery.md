@@ -1,6 +1,6 @@
 # BPQuery
 
-A [[csharp]] web service for querying business partner permissions and monitoring [[Keycloak]] authentication events in real time.
+A [[CSharp]] web service for querying business partner permissions and monitoring [[Keycloak]] authentication events in real time.
 
 **Repo:** `~/Git/BPQuery`
 **URL:** `https://dw.ramsden-international.com/bpquery/`

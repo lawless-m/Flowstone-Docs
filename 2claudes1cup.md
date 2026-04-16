@@ -1,6 +1,6 @@
 # 2claudes1cup
 
-A [[rust]] [[MCP]] server — package name `c2c-server`, repo name a visual pun. Almost certainly a "Claude-to-Claude" bridge: an MCP endpoint that lets two Claude instances share state or pass messages through a common server. Classic spec-then-implementation layout.
+A [[Rust]] [[MCP]] server — package name `c2c-server`, repo name a visual pun. Almost certainly a "Claude-to-Claude" bridge: an MCP endpoint that lets two Claude instances share state or pass messages through a common server. Classic spec-then-implementation layout.
 
 **Repo:** `~/Git/2claudes1cup`
 

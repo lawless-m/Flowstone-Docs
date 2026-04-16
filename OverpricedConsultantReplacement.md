@@ -1,6 +1,6 @@
 # OverpricedConsultantReplacement
 
-"OCR: Overpriced Consultant Replacement" — a production-ready [[python]] invoice OCR service using PaddleOCR and Unstructured.io to extract structured data from supplier PDFs, with GPU/CPU switching so it can either answer demo queries in seconds or chew through batches on the CPU while the GPU is busy elsewhere.
+"OCR: Overpriced Consultant Replacement" — a production-ready [[Python]] invoice OCR service using PaddleOCR and Unstructured.io to extract structured data from supplier PDFs, with GPU/CPU switching so it can either answer demo queries in seconds or chew through batches on the CPU while the GPU is busy elsewhere.
 
 **Repo:** `~/Git/OverpricedConsultantReplacement`
 

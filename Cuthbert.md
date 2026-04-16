@@ -1,6 +1,6 @@
 # Cuthbert
 
-A cross-platform [[rust]] network topology visualiser that renders the local routing table as an interactive 3D graph, traces routes to arbitrary destinations, and auto-discovers other nodes on the same mesh.
+A cross-platform [[Rust]] network topology visualiser that renders the local routing table as an interactive 3D graph, traces routes to arbitrary destinations, and auto-discovers other nodes on the same mesh.
 
 **Repo:** `~/Git/Cuthbert`
 

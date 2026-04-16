@@ -1,6 +1,6 @@
 # NineLadies
 
-A [[rust]] batch image description CLI using vision language models via [[ollama]], named after the Nine Ladies stone circle in Derbyshire.
+A [[Rust]] batch image description CLI using vision language models via [[Ollama]], named after the Nine Ladies stone circle in Derbyshire.
 
 **Repo:** `~/Git/NineLadies`
 **URL:** `https://dw.ramsden-international.com/9ladies/`

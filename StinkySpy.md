@@ -1,6 +1,6 @@
 # StinkySpy
 
-A [[rust]] production-chain calculator for [[Oxygen-Not-Included]], built on building data extracted straight from the decompiled game source rather than wiki approximations.
+A [[Rust]] production-chain calculator for [[Oxygen-Not-Included]], built on building data extracted straight from the decompiled game source rather than wiki approximations.
 
 **Repo:** `~/Git/StinkySpy`
 

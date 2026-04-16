@@ -1,6 +1,6 @@
 # Marvinous
 
-A [[rust]] server monitoring tool with the personality of Marvin the Paranoid Android — collects hardware metrics via IPMI, SMART, and nvidia-smi, then writes hourly reports through [[ollama]].
+A [[Rust]] server monitoring tool with the personality of Marvin the Paranoid Android — collects hardware metrics via IPMI, SMART, and nvidia-smi, then writes hourly reports through [[Ollama]].
 
 **Repo:** `~/Git/Marvinous`
 **URL:** `https://dw.ramsden-international.com/marvinous/`

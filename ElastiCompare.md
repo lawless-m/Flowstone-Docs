@@ -1,6 +1,6 @@
 # ElastiCompare
 
-A [[csharp]] tool for comparing [[ElasticSearch]] indexes between production and staging to validate new indexing programs.
+A [[CSharp]] tool for comparing [[ElasticSearch]] indexes between production and staging to validate new indexing programs.
 
 **Repo:** `~/Git/ElastiCompare`
 

@@ -1,6 +1,6 @@
 # R.I.S.E
 
-A [[javascript]] [[browser-extension]] that centralises quick links to internal Ramsden systems and embedded utility tools.
+A [[Javascript]] [[Browser-Extension]] that centralises quick links to internal Ramsden systems and embedded utility tools.
 
 **Repo:** `~/Git/R.I.S.E`
 **URL:** `https://dw.ramsden-international.com/R.I.S.E./`

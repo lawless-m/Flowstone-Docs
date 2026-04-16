@@ -1,6 +1,6 @@
 # glossy
 
-A collection of [[rust]] and [[python]] tools for parsing, classifying, and auditing food product ingredient lists using [[ollama]].
+A collection of [[Rust]] and [[Python]] tools for parsing, classifying, and auditing food product ingredient lists using [[Ollama]].
 
 **Repo:** `~/Git/glossy`
 **URL:** `https://dw.ramsden-international.com/glossy/`

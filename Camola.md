@@ -1,6 +1,6 @@
 # Camola
 
-A [[rust]] real-time webcam pipeline — "Webcam FX" — that segments you from the background with a neural network and composites you onto replacement backgrounds or demoscene-style effects, then pipes the result into a v4l2loopback virtual camera that Teams, Zoom and friends see as an ordinary webcam.
+A [[Rust]] real-time webcam pipeline — "Webcam FX" — that segments you from the background with a neural network and composites you onto replacement backgrounds or demoscene-style effects, then pipes the result into a v4l2loopback virtual camera that Teams, Zoom and friends see as an ordinary webcam.
 
 **Repo:** `~/Git/Camola`
 
