@@ -1,6 +1,6 @@
 # CustomerIndexer
 
-A [[RocsMiddleware]] service that incrementally syncs customer data from [[ExportMaster]] and PostgreSQL into [[ElasticSearch]].
+A [[RocsMiddleware]] service that incrementally syncs customer data from [[ExportMaster]] and PostgreSQL into [[Elasticsearch]].
 
 **Repo:** `~/Git/RocsMiddleware/CustomerIndexer`
 
