@@ -1,6 +1,6 @@
 # ODBCQuery
 
-A [[csharp]] CLI tool for running SQL queries against any [[ODBC]] data source and outputting results as formatted tables.
+A [[CSharp]] CLI tool for running SQL queries against any [[ODBC]] data source and outputting results as formatted tables.
 
 **Repo:** `~/Git/ODBCQuery`
 

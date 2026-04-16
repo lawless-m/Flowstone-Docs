@@ -1,6 +1,6 @@
 # JordanPrice
 
-A [[csharp]] price discount indexer that pipelines data from [[ExportMaster]] through [[Parquet]] and PostgreSQL into [[ElasticSearch]].
+A [[CSharp]] price discount indexer that pipelines data from [[ExportMaster]] through [[Parquet]] and PostgreSQL into [[ElasticSearch]].
 
 **Repo:** `~/Git/JordanPrice`
 

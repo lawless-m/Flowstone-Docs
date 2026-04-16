@@ -1,6 +1,6 @@
 # Gravedigger
 
-A [[csharp]] [[DBISAM]] replication tool that creates non-intrusive backups via Windows Volume Shadow Copy (VSS).
+A [[CSharp]] [[DBISAM]] replication tool that creates non-intrusive backups via Windows Volume Shadow Copy (VSS).
 
 **Repo:** `~/Git/Gravedigger`
 

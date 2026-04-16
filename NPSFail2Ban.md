@@ -1,6 +1,6 @@
 # NPSFail2Ban
 
-A [[csharp]] NPS authentication failure monitor that emails daily digest reports with Excel attachments identifying IPs to block.
+A [[CSharp]] NPS authentication failure monitor that emails daily digest reports with Excel attachments identifying IPs to block.
 
 **Repo:** `~/Git/NPSFail2Ban`
 

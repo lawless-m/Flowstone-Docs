@@ -1,6 +1,6 @@
 # ReproSharePointer
 
-A [[csharp]] tool that uploads seasonal product images to [[SharePoint]] and updates an Excel tracker via the Graph API.
+A [[CSharp]] tool that uploads seasonal product images to [[SharePoint]] and updates an Excel tracker via the Graph API.
 
 **Repo:** `~/Git/ReproSharePointer`
 

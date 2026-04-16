@@ -1,6 +1,6 @@
 # Crabbit
 
-A [[rust]] userspace WireGuard peer that exposes its tunnel as a [[9P]] `/net` filesystem, letting any [[Plan9]] system join a WireGuard mesh by simply importing `/net` from Crabbit.
+A [[Rust]] userspace WireGuard peer that exposes its tunnel as a [[9P]] `/net` filesystem, letting any [[Plan9]] system join a WireGuard mesh by simply importing `/net` from Crabbit.
 
 **Repo:** `~/Git/Crabbit`
 

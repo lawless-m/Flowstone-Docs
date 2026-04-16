@@ -1,6 +1,6 @@
 # FacRepl
 
-A [[rust]] + Prolog tool — "Factorio Constraint Builder" — for generating and placing Factorio factory layouts via a custom DSL, an interactive REPL, an RCON bridge to the running game, and a Scryer Prolog CLP(Z) constraint solver that can synthesise layouts from high-level production goals.
+A [[Rust]] + Prolog tool — "Factorio Constraint Builder" — for generating and placing Factorio factory layouts via a custom DSL, an interactive REPL, an RCON bridge to the running game, and a Scryer Prolog CLP(Z) constraint solver that can synthesise layouts from high-level production goals.
 
 **Repo:** `~/Git/FacRepl`
 

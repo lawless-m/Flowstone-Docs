@@ -1,6 +1,6 @@
 # Cilq
 
-A [[csharp]] / [[dotnet]] WebSocket bridge — "Claude Browser Bridge" — that lets Claude Code drive a live browser: capture console logs, track JavaScript errors and stack traces, and execute arbitrary scripts in any open tab from the command line. The server side of the BrowserBridge pattern that appears as a skill in [[Claude-Skills]].
+A [[CSharp]] / [[Dotnet]] WebSocket bridge — "Claude Browser Bridge" — that lets Claude Code drive a live browser: capture console logs, track JavaScript errors and stack traces, and execute arbitrary scripts in any open tab from the command line. The server side of the BrowserBridge pattern that appears as a skill in [[Claude-Skills]].
 
 **Repo:** `~/Git/Cilq`
 

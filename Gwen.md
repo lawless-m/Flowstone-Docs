@@ -1,6 +1,6 @@
 # Gwen
 
-An autonomous [[rust]] coding agent — "QwenCoder Bot" — that uses [[Qwen]] 2.5 Coder models via [[ollama]] to automatically implement fixes and features from [[Gogs]] issue tickets, escalating anything too complex back to Claude Code for manual work.
+An autonomous [[Rust]] coding agent — "QwenCoder Bot" — that uses [[Qwen]] 2.5 Coder models via [[Ollama]] to automatically implement fixes and features from [[Gogs]] issue tickets, escalating anything too complex back to Claude Code for manual work.
 
 **Repo:** `~/Git/Gwen` (project code lives under `qwencoder-bot/`)
 

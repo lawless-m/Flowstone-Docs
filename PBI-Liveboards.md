@@ -1,6 +1,6 @@
 # PBI-Liveboards
 
-Interactive [[javascript]] dashboards using [[DuckDB]] [[WASM]] and D3.js for real-time product availability and sales analytics.
+Interactive [[Javascript]] dashboards using [[DuckDB]] [[WASM]] and D3.js for real-time product availability and sales analytics.
 
 **Repo:** `~/Git/PBI-Liveboards`
 **URL:** `https://dw.ramsden-international.com/tiny02/pibs/`

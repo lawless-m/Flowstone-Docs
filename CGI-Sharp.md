@@ -1,6 +1,6 @@
 # CGI-Sharp
 
-A [[csharp]] [[CGI]] database query engine that produces [[HTMLDataTable]] — a self-contained executable for serving parameterised SQL results as JSON over HTTP.
+A [[CSharp]] [[CGI]] database query engine that produces [[HTMLDataTable]] — a self-contained executable for serving parameterised SQL results as JSON over HTTP.
 
 **Repo:** `~/Git/CGI-Sharp`
 

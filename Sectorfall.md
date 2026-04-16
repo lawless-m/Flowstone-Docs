@@ -1,6 +1,6 @@
 # sectorfall
 
-A client-server [[javascript]] project with `sectorfall-client/` and `sectorfall-server/` subfolders and no root README. The name — "sector" + "fall" — strongly suggests a game (space strategy, sector-based tactics, or some roguelike variant), but without reading either subfolder's sources the genre is inference not fact.
+A client-server [[Javascript]] project with `sectorfall-client/` and `sectorfall-server/` subfolders and no root README. The name — "sector" + "fall" — strongly suggests a game (space strategy, sector-based tactics, or some roguelike variant), but without reading either subfolder's sources the genre is inference not fact.
 
 **Repo:** `~/Git/sectorfall`
 

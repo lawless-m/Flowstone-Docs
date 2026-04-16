@@ -1,6 +1,6 @@
 # Ok2BeMail
 
-A [[rust]] email classifier that fetches corporate mail from Office 365 via Microsoft Graph, classifies it locally with [[ollama]], and notifies on important items.
+A [[Rust]] email classifier that fetches corporate mail from Office 365 via Microsoft Graph, classifies it locally with [[Ollama]], and notifies on important items.
 
 **Repo:** `~/Git/Ok2BeMail`
 

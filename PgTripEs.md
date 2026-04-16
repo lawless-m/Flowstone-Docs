@@ -1,6 +1,6 @@
 # PgTripEs
 
-A [[csharp]] synchronisation service that pushes price_discount changes from PostgreSQL into [[ElasticSearch]].
+A [[CSharp]] synchronisation service that pushes price_discount changes from PostgreSQL into [[ElasticSearch]].
 
 **Repo:** `~/Git/PgTripEs`
 

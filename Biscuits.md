@@ -1,6 +1,6 @@
 # Biscuits
 
-A [[csharp]] desktop tool for inspecting [[PowerBI]] files — connects to a running PBI Desktop instance and identifies unused tables, measures, and columns.
+A [[CSharp]] desktop tool for inspecting [[PowerBI]] files — connects to a running PBI Desktop instance and identifies unused tables, measures, and columns.
 
 **Repo:** `~/Git/Biscuits`
 
