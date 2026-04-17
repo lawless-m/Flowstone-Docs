@@ -1,4 +1,4 @@
-# cozordb
+# Cozordb
 
 Matt's [[Rust]]-only fork of [[CozoDB]] published as `lawless-m/cozo-redb`. Strips the upstream multi-backend story down to a single persistent backend ([[Redb]]) plus an in-memory backend, removes the Python/Node/Java/Swift/C bindings, and targets Rust embedders exclusively. [[Flowstone]] is the primary in-corpus consumer.
 

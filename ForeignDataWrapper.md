@@ -1,5 +1,5 @@
 ## ForeignDataWrapper
 
-We have some data wrappers for [[Postgresql]]
+We have some data wrappers for [[PostgreSQL]]
 
-[[Parquet]], [[Mysql]], Postgresql to Postgresql, and an awkward [[ODBC]]
+[[Parquet]], [[MySQL]], PostgreSQL to PostgreSQL, and an awkward [[Odbc]]
