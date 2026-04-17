@@ -1,6 +1,6 @@
 # BattleForMoscow
 
-A web implementation of Frank Chadwick's 1986 board wargame *Battle for Moscow* (Operation Typhoon, October–December 1941), with a full [[Rust]] Axum backend, an SVG hex map, and — the interesting twist — a separate [[MCP]] player crate that lets LLMs take the opposing side.
+A web implementation of Frank Chadwick's 1986 board wargame *Battle for Moscow* (Operation Typhoon, October–December 1941), with a full [[Rust]] Axum backend, an SVG hex map, and — the interesting twist — a separate [[Mcp]] player crate that lets LLMs take the opposing side.
 
 **Repo:** `~/Git/BattleForMoscow`
 

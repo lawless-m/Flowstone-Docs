@@ -1,6 +1,6 @@
 # iscsi-crate
 
-A pure [[Rust]] [[iSCSI]] target library with a trait-based storage backend — users implement `ScsiBlockDevice` for their own in-memory, file, or network-attached storage, and the crate handles all iSCSI and SCSI protocol details.
+A pure [[Rust]] [[Iscsi]] target library with a trait-based storage backend — users implement `ScsiBlockDevice` for their own in-memory, file, or network-attached storage, and the crate handles all iSCSI and SCSI protocol details.
 
 **Repo:** `~/Git/iscsi-crate`
 

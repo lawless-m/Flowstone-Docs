@@ -4,4 +4,4 @@ A [[RocsMiddleware]] service that pulls price discounts directly from [[SageX3]]
 
 **Repo:** `~/Git/RocsMiddleware/PriceDiscountExtractor`
 
-Workaround for X3's REST API not marking customers as updated when only discounts change. Queries X3 SQL Server directly via [[ODBC]], upserts into PostgreSQL `rocs.price_discount` with incremental (2-hour buffer) or full sync modes.
+Workaround for X3's REST API not marking customers as updated when only discounts change. Queries X3 SQL Server directly via [[Odbc]], upserts into PostgreSQL `rocs.price_discount` with incremental (2-hour buffer) or full sync modes.

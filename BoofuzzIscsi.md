@@ -1,6 +1,6 @@
 # boofuzz-iscsi
 
-A [[Python]] [[Fuzzing]] harness that acts as a malicious [[iSCSI]] initiator, sending malformed PDUs to an iSCSI target to flush out buffer overflows, integer-overflow length-handling bugs, state-machine violations and memory corruption in key=value parsing.
+A [[Python]] [[Fuzzing]] harness that acts as a malicious [[Iscsi]] initiator, sending malformed PDUs to an iSCSI target to flush out buffer overflows, integer-overflow length-handling bugs, state-machine violations and memory corruption in key=value parsing.
 
 **Repo:** `~/Git/boofuzz-iscsi`
 

@@ -1,3 +1,0 @@
-# AWS
-
-Hosts for [[ROCS]]

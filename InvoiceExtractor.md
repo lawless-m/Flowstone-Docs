@@ -4,4 +4,4 @@ A [[RocsMiddleware]] service that extracts invoices from [[ExportMaster]] and st
 
 **Repo:** `~/Git/RocsMiddleware/InvoiceExtractor`
 
-Queries [[ExportMaster]] via [[ODBC]] in batches of 100, enriches with customer dimension data from PostgreSQL, and bulk inserts headers and lines in a single transaction. Smart filtering skips already-extracted invoices.
+Queries [[ExportMaster]] via [[Odbc]] in batches of 100, enriches with customer dimension data from PostgreSQL, and bulk inserts headers and lines in a single transaction. Smart filtering skips already-extracted invoices.
