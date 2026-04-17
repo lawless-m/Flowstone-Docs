@@ -1,6 +1,6 @@
 # Fayregrind
 
-A [[csharp]] CLI tool that finds products missing from the `niingred` ingredient table in [[ExportMaster]] and inserts them.
+A [[CSharp]] CLI tool that finds products missing from the `niingred` ingredient table in [[ExportMaster]] and inserts them.
 
 **Repo:** `~/Git/Fayregrind`
 **Binary:** `Y:\CSharpDLLs\Fayregrind\Fayregrind.exe`
