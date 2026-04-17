@@ -1,6 +1,6 @@
 # Rowdy
 
-A text-to-speech service built around the Piper neural [[text-to-speech]] (TTS) engine, with a custom DSL for scripting speech, a REST API, and a web frontend — planned in six clearly-staged phases.
+A text-to-speech service built around the Piper neural [[TextToSpeech]] (TTS) engine, with a custom DSL for scripting speech, a REST API, and a web frontend — planned in six clearly-staged phases.
 
 **Repo:** `~/Git/Rowdy`
 

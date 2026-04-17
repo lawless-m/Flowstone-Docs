@@ -1,6 +1,6 @@
 # Ferret
 
-"A small but eager chatbot" — a [[rust]] web chatbot powered by [[ollama]] for local LLM and the Brave Search API for real-time web queries.
+"A small but eager chatbot" — a [[Rust]] web chatbot powered by [[Ollama]] for local LLM and the Brave Search API for real-time web queries.
 
 **Repo:** `~/Git/Ferret`
 

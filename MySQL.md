@@ -1,6 +1,6 @@
 # MySQL
 
-In days of yore, MySQL was the fastest database around. It's a bit crap now, so it's no surprise that [[ROCS]] uses it. 
+In days of yore, MySQL was the fastest database around. It's a bit crap now, so it's no surprise that [[Rocs]] uses it. 
 
 For almost any application you can think of now, if you need a serious database use [[PostgreSQL]].
 

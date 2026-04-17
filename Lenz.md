@@ -1,6 +1,6 @@
 # Lenz
 
-A [[csharp]] Windows Explorer preview handler spec for the Prysm ProjFS virtual filesystem, rendering metadata as HTML via WebView2.
+A [[CSharp]] Windows Explorer preview handler spec for the Prysm ProjFS virtual filesystem, rendering metadata as HTML via WebView2.
 
 **Repo:** `~/Git/Lenz`
 

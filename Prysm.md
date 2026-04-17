@@ -1,6 +1,6 @@
 # Prysm
 
-A [[csharp]] ProjFS virtual filesystem that presents product images through multiple computed views without duplicating files.
+A [[CSharp]] ProjFS virtual filesystem that presents product images through multiple computed views without duplicating files.
 
 **Repo:** `~/Git/Prysm`
 

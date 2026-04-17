@@ -1,0 +1,8 @@
+# CGI-Sharp
+
+A [[CSharp]] [[Cgi]] database query engine that produces [[HtmlDataTable]] — a self-contained executable for serving parameterised SQL results as JSON over HTTP.
+
+**Repo:** `~/Git/CGI-Sharp`
+
+CGI-Sharp takes HTTP query strings, maps them to SQL queries defined in JSON config files, executes them against multiple database backends (SQL Server, [[PostgreSQL]], [[DuckDB]], [[MySQL]], [[Dbisam]]) via [[Odbc]] or native drivers, and returns columnar JSON. The primary output is [[HtmlDataTable]], a trimmed .NET 9 single-file executable deployed to TinyWeb on [[Dw.ramsdenInternational.com]].
+

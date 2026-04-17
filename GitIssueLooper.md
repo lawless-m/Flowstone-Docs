@@ -1,6 +1,6 @@
 # GitIssueLooper
 
-A pristine [[Claude-Skills]] template clone with no project-specific content. The name suggests a planned tool for looping over Git issues with an LLM (similar in spirit to [[Gwen]]'s QwenCoder Bot), but there is no source, no design doc, and no README beyond the template's default text.
+A pristine [[ClaudeSkills]] template clone with no project-specific content. The name suggests a planned tool for looping over Git issues with an LLM (similar in spirit to [[Gwen]]'s QwenCoder Bot), but there is no source, no design doc, and no README beyond the template's default text.
 
 **Repo:** `~/Git/GitIssueLooper`
 

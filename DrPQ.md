@@ -1,6 +1,6 @@
 # DrPQ
 
-A [[csharp]] CLI tool for searching across all columns in a folder of [[Parquet]] files.
+A [[CSharp]] CLI tool for searching across all columns in a folder of [[Parquet]] files.
 
 **Repo:** `~/Git/DrPQ`
 

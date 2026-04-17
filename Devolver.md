@@ -1,6 +1,6 @@
 # Devolver
 
-A [[rust]] [[cli-tools]] utility — the binary is called `devlog` — that captures Claude Code conversations for later reference by ingesting session JSONL files and writing human-readable per-session JSON records into a `.devlog/` folder next to the code being worked on. Context compression loses the "how did we build this" narrative; Devolver puts it back.
+A [[Rust]] [[CliTools]] utility — the binary is called `devlog` — that captures Claude Code conversations for later reference by ingesting session JSONL files and writing human-readable per-session JSON records into a `.devlog/` folder next to the code being worked on. Context compression loses the "how did we build this" narrative; Devolver puts it back.
 
 **Repo:** `~/Git/Devolver` (repo name and tool name differ: repo is Devolver, binary is `devlog`)
 

@@ -1,6 +1,6 @@
 # Mallard
 
-A [[csharp]] natural-language SQL assistant that converts questions into [[DuckDB]] queries using [[claude-api]].
+A [[CSharp]] natural-language SQL assistant that converts questions into [[DuckDB]] queries using [[ClaudeApi]].
 
 **Repo:** `~/Git/Mallard`
 

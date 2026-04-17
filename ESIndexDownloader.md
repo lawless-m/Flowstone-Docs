@@ -1,6 +1,6 @@
 # ESIndexDownloader
 
-A [[csharp]] tool for downloading [[ElasticSearch]] indexes to JSON and converting them to [[Parquet]] via [[DuckDB]].
+A [[CSharp]] tool for downloading [[Elasticsearch]] indexes to JSON and converting them to [[Parquet]] via [[DuckDB]].
 
 **Repo:** `~/Git/ESIndexDownloader`
 
