@@ -1,6 +1,6 @@
 # CreditStatus
 
-A [[RocsMiddleware]] service that fetches customer credit limits and unpaid amounts from the [[Sage-X3]] REST API.
+A [[RocsMiddleware]] service that fetches customer credit limits and unpaid amounts from the [[SageX3]] REST API.
 
 **Repo:** `~/Git/RocsMiddleware/CreditStatus`
 

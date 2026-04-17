@@ -1,6 +1,6 @@
 # X3CustomerPull
 
-A [[RocsMiddleware]] core feeder service that pulls customer data from [[Sage-X3]] into PostgreSQL.
+A [[RocsMiddleware]] core feeder service that pulls customer data from [[SageX3]] into PostgreSQL.
 
 **Repo:** `~/Git/RocsMiddleware/X3CustomerPull`
 

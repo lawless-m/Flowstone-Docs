@@ -1,6 +1,6 @@
 # Claude-Skills
 
-A GitHub template repository containing reusable [[Claude-Tooling]] skills and slash commands — Matt's spellbook of domain knowledge that can be dropped into any project by clicking "Use this template".
+A GitHub template repository containing reusable [[ClaudeTooling]] skills and slash commands — Matt's spellbook of domain knowledge that can be dropped into any project by clicking "Use this template".
 
 **Repo:** `~/Git/Claude-Skills`
 

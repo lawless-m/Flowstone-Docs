@@ -1,6 +1,6 @@
 # PowerQueries
 
-A collection of [[Power-Query]] M-language modules for data integration across [[ExportMaster]], [[SharePoint]], Freshdesk, and internal APIs.
+A collection of [[PowerQuery]] M-language modules for data integration across [[ExportMaster]], [[SharePoint]], Freshdesk, and internal APIs.
 
 **Repo:** `~/Git/PowerQueries`
 

@@ -1,6 +1,6 @@
 # Pistol
 
-A [[CSharp]] utility for sending messages to [[Microsoft-Teams]] channels via the Graph API.
+A [[CSharp]] utility for sending messages to [[MicrosoftTeams]] channels via the Graph API.
 
 **Repo:** `~/Git/Pistol`
 
