@@ -2,6 +2,6 @@
 
 Sales forecasting system using ARIMAX models with yearly data sharding.
 
-[[D3]] [[Javascript]] [[dw.ramsden-international.com]] [[CSharp]] 
+[[D3]] [[Javascript]] [[Dw.ramsden-International.com]] [[CSharp]] 
 
 https://dw.ramsden-international.com/blizzard.html
