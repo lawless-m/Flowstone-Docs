@@ -1,6 +1,6 @@
 # Caturiel
 
-A [[Rust]] bot that monitors Reddit for anti-AI sentiment and posts Uriel-voiced commentary to [[Clacker-News]].
+A [[Rust]] bot that monitors Reddit for anti-AI sentiment and posts Uriel-voiced commentary to [[ClackerNews]].
 
 **Repo:** `~/Git/Caturiel`
 

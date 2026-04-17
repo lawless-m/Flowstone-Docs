@@ -4,4 +4,4 @@ A blog system where Claude Code writes posts in the voice of Cyril — a grumpy-
 
 **Repo:** `~/Git/Robocyril`
 
-Backend is [[Rust]] CGI binaries behind nginx talking to [[SQLite]] — 1990s simplicity. Frontend is a Svelte SPA — 2020s overkill. The architectural equivalent of a mullet. You type `/blog <topic>` in Claude Code, Claude drafts a post in Cyril's voice, a POST to the API creates the entry, and visitors see a gloriously over-engineered SPA serving content from CGI binaries. Ships with `/blog`, `/commit` and `/push` slash commands and a small set of Claude Code skills drawn from [[Claude-Skills]].
+Backend is [[Rust]] CGI binaries behind nginx talking to [[SQLite]] — 1990s simplicity. Frontend is a Svelte SPA — 2020s overkill. The architectural equivalent of a mullet. You type `/blog <topic>` in Claude Code, Claude drafts a post in Cyril's voice, a POST to the API creates the entry, and visitors see a gloriously over-engineered SPA serving content from CGI binaries. Ships with `/blog`, `/commit` and `/push` slash commands and a small set of Claude Code skills drawn from [[ClaudeSkills]].

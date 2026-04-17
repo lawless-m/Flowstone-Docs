@@ -1,6 +1,6 @@
 # PriceDiscountExtractor
 
-A [[RocsMiddleware]] service that pulls price discounts directly from [[Sage-X3]] SQL Server into PostgreSQL.
+A [[RocsMiddleware]] service that pulls price discounts directly from [[SageX3]] SQL Server into PostgreSQL.
 
 **Repo:** `~/Git/RocsMiddleware/PriceDiscountExtractor`
 

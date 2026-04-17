@@ -1,11 +1,11 @@
 # HTMLDataTable
 
-The CGI executable produced by [[CGI-Sharp]] — takes HTTP query strings, runs parameterised SQL from JSON config files, and returns columnar JSON.
+The CGI executable produced by [[CgiSharp]] — takes HTTP query strings, runs parameterised SQL from JSON config files, and returns columnar JSON.
 
 **Repo:** `~/Git/CGI-Sharp`
 **URL:** `https://dw.ramsden-international.com/tiny02/cgi-bin/HTMLDataTable.exe`
 
-HTMLDataTable is invoked via `?json=<name>&param1=value1`. It loads a JSON config from `C:\RI Services\JsonParams\cgi\<name>.json`, connects to the specified database (PostgreSQL, MySQL, [[DuckDB]], [[DBISAM]]/[[ExportMaster]], or any [[ODBC]] DSN), runs the SQL with parameter substitution, and returns results as columnar JSON. Deployed on [[Dw.ramsden-International.com]].
+HTMLDataTable is invoked via `?json=<name>&param1=value1`. It loads a JSON config from `C:\RI Services\JsonParams\cgi\<name>.json`, connects to the specified database (PostgreSQL, MySQL, [[DuckDB]], [[DBISAM]]/[[ExportMaster]], or any [[ODBC]] DSN), runs the SQL with parameter substitution, and returns results as columnar JSON. Deployed on [[Dw.ramsdenInternational.com]].
 
 ## JSON config format
 

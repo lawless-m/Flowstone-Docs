@@ -1,6 +1,6 @@
 # ShushYT
 
-A tiny [[Browser-Extension]] (built for Vivaldi, Manifest V3 style) that automatically mutes YouTube tabs until the actual video content starts playing — so you never hear another pre-roll ad. "No more loud ads!"
+A tiny [[BrowserExtension]] (built for Vivaldi, Manifest V3 style) that automatically mutes YouTube tabs until the actual video content starts playing — so you never hear another pre-roll ad. "No more loud ads!"
 
 **Repo:** `~/Git/ShushYT`
 

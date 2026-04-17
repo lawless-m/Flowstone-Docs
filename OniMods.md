@@ -1,6 +1,6 @@
 # ONI-Mods
 
-A [[CSharp]] monorepo of [[Game-Mods]] for [[Oxygen-Not-Included]] — enhanced storage tooltips, infinite-storage cheats, automation helpers, and a handful of convenience tweaks.
+A [[CSharp]] monorepo of [[GameMods]] for [[OxygenNotIncluded]] — enhanced storage tooltips, infinite-storage cheats, automation helpers, and a handful of convenience tweaks.
 
 **Repo:** `~/Git/ONI-Mods`
 
