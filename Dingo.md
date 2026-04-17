@@ -5,4 +5,4 @@ A web-based Australian biosecurity compliance declaration generator that replace
 **Repo:** `~/Git/Dingo`
 **URL:** `https://dw.ramsden-international.com/tiny02/dingo.html`
 
-Dingo automates the creation of Food Label Declarations, Supplier Declarations, and Product Specification Declarations for imported food shipments. It pulls shipment data from a [[Dbisam]] backend via [[HTMLDataTable]], auto-detects ingredient categories (dairy, eggs, gelatine, pork, beef) from product descriptions, and generates compliant PDF documents using pdfMake. Deployed as a static HTML app on [[Dw.ramsdenInternational.com]] with a vanilla JS frontend — no frameworks.
+Dingo automates the creation of Food Label Declarations, Supplier Declarations, and Product Specification Declarations for imported food shipments. It pulls shipment data from a [[Dbisam]] backend via [[HtmlDataTable]], auto-detects ingredient categories (dairy, eggs, gelatine, pork, beef) from product descriptions, and generates compliant PDF documents using pdfMake. Deployed as a static HTML app on [[Dw.ramsdenInternational.com]] with a vanilla JS frontend — no frameworks.
