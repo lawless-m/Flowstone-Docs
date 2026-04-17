@@ -1,6 +1,6 @@
 # Goggles
 
-A [[Rust]] [[Cli-Tools]] implementation of a [[Gogs]] command-line client — the `gog` CLI that several projects in this corpus reference, notably [[Gwen]]'s QwenCoder Bot (which operates as another `gog` profile alongside opus-planning and sonnet-backend agents). Name is a pun on "Gogs CLI".
+A [[Rust]] [[CLI-Tools]] implementation of a [[Gogs]] command-line client — the `gog` CLI that several projects in this corpus reference, notably [[Gwen]]'s QwenCoder Bot (which operates as another `gog` profile alongside opus-planning and sonnet-backend agents). Name is a pun on "Gogs CLI".
 
 **Repo:** `~/Git/Goggles`
 

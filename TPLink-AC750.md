@@ -1,4 +1,4 @@
-# tplinkac750
+# TPLink-AC750
 
 A [[Python]] configuration script and data-file set for a TP-Link AC750 router — `tplink_config.py` at the root and a `tplink-config/` subfolder with config snapshots or templates. Automation of the router's existing config interface rather than firmware replacement.
 

@@ -1,4 +1,4 @@
-# HTMLDataTable
+# HTML-Data-Table
 
 The CGI executable produced by [[CGI-Sharp]] — takes HTTP query strings, runs parameterised SQL from JSON config files, and returns columnar JSON.
 

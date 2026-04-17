@@ -1,6 +1,6 @@
 # Petty
 
-A [[Typescript]] pivot table library with zero dependencies — runs in Node.js and the browser with HTML, CSV, JSON, and Excel export.
+A [[TypeScript]] pivot table library with zero dependencies — runs in Node.js and the browser with HTML, CSV, JSON, and Excel export.
 
 **Repo:** `~/Git/Petty`
 

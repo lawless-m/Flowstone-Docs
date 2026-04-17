@@ -1,6 +1,6 @@
 # Mary
 
-A [[Javascript]] Chrome/Vivaldi [[Browser-Extension]] for granular per-domain cookie management and tracking.
+A [[JavaScript]] Chrome/Vivaldi [[Browser-Extension]] for granular per-domain cookie management and tracking.
 
 **Repo:** `~/Git/Mary`
 

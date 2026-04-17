@@ -1,6 +1,6 @@
 # Dressage
 
-A [[CSharp]] address normalisation service that parses freeform address text into structured JSON using [[Claude-Api]].
+A [[CSharp]] address normalisation service that parses freeform address text into structured JSON using [[Claude-API]].
 
 **Repo:** `~/Git/Dressage`
 **URL:** `https://dw.ramsden-international.com/tiny02/cgi-bin/Dressage.Cgi.exe`
