@@ -1,6 +1,6 @@
 # Cilq
 
-A [[CSharp]] / [[Dotnet]] [[WebSocket]] bridge — "Claude Browser Bridge" — a [[Browser-Extension]] and listening server that lets Claude Code drive a live browser: capture console logs, track JavaScript errors and stack traces, and execute arbitrary scripts in any open tab from the command line. The server side of the BrowserBridge pattern that appears as a skill in [[ClaudeSkills]].
+A [[CSharp]] / [[Dotnet]] [[WebSocket]] bridge — "Claude Browser Bridge" — a [[BrowserExtension]] and listening server that lets Claude Code drive a live browser: capture console logs, track JavaScript errors and stack traces, and execute arbitrary scripts in any open tab from the command line. The server side of the BrowserBridge pattern that appears as a skill in [[ClaudeSkills]].
 
 
 
