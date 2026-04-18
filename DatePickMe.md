@@ -1,6 +1,6 @@
 # DatePickMe
 
-A standalone single-file HTML/[[Javascript]] widget from the [[HtmlWidgets]] family — "Finance Date Filter" — that presents a quarter / half-year / month / day picker for finance date ranges. Dark theme with a pink accent. Not a project in the usual sense; everything lives in one `date_pick_me.html` file.
+A standalone single-file HTML/[[Javascript]] widget from the [[HTMLWidgets]] family — "Finance Date Filter" — that presents a quarter / half-year / month / day picker for finance date ranges. Dark theme with a pink accent. Not a project in the usual sense; everything lives in one `date_pick_me.html` file.
 
 **Repo:** `~/Git/DatePickMe`
 

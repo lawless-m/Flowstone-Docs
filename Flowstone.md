@@ -1,6 +1,6 @@
 # Flowstone
 
-A [[Rust]] [[CliTools]] tool that turns a folder of Markdown files into a queryable knowledge graph, backed by [[CozoDB]] and [[Datalog]].
+A [[Rust]] [[CLITools]] tool that turns a folder of Markdown files into a queryable knowledge graph, backed by [[CozoDB]] and [[Datalog]].
 
 **Repo:** `~/Git/Flowstone`
 

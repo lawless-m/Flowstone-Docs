@@ -1,6 +1,6 @@
 # FakeOdbc
 
-A mock Windows [[Odbc]] driver written in C that returns static CSV data regardless of the SQL query sent to it.
+A mock Windows [[ODBC]] driver written in C that returns static CSV data regardless of the SQL query sent to it.
 
 **Repo:** `~/Git/FakeOdbc`
 

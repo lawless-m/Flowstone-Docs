@@ -2,7 +2,7 @@
 
 The best open source database around for SQL.
 
-As well as the native database. also use [[ForeignDataWrapper]] to access other data sources. For instance you can import data from [[Parquet]] files or query [[MySQL]], and even [[Odbc]].
+As well as the native database. also use [[ForeignDataWrapper]] to access other data sources. For instance you can import data from [[Parquet]] files or query [[MySQL]], and even [[ODBC]].
 
 Having said that, it's not perfectly flexible.  Sometimes it won't do cross-database queries. So you have to do the query to a materialized view, and then query it from there. Which is the same as just importing it somehow. 
 

@@ -1,6 +1,6 @@
 # DoctorDot
 
-A modular [[Python]] chatbot — "HR Policy Chatbot" — for querying PDF document collections using GPU-accelerated semantic embeddings, [[DuckDB]] vector similarity search, and [[ClaudeApi]] (Claude Sonnet 4) for answer generation.
+A modular [[Python]] chatbot — "HR Policy Chatbot" — for querying PDF document collections using GPU-accelerated semantic embeddings, [[DuckDB]] vector similarity search, and [[ClaudeAPI]] (Claude Sonnet 4) for answer generation.
 
 **Repo:** `~/Git/DoctorDot`
 
