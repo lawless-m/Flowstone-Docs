@@ -1,6 +1,6 @@
 # Ztil
 
-A [[Rust]] emulator for the **Research Machines 380Z** — a British 8-bit [[Z80]] microcomputer from 1977–80 that was widely used in UK schools before the BBC Micro landed. Cargo workspace with a core emulator, a native binary runner, a web server front end, and a [[Wasm]] target so the machine can run inside a browser tab.
+A [[Rust]] emulator for the **Research Machines 380Z** — a British 8-bit [[Z80]] microcomputer from 1977–80 that was widely used in UK schools before the BBC Micro landed. Cargo workspace with a core emulator, a native binary runner, a web server front end, and a [[WASM]] target so the machine can run inside a browser tab.
 
 **Repo:** `~/Git/Ztil`
 

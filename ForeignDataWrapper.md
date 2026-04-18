@@ -2,4 +2,4 @@
 
 We have some data wrappers for [[PostgreSQL]]
 
-[[Parquet]], [[MySQL]], PostgreSQL to PostgreSQL, and an awkward [[Odbc]]
+[[Parquet]], [[MySQL]], PostgreSQL to PostgreSQL, and an awkward [[ODBC]]

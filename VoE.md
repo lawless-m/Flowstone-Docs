@@ -1,6 +1,6 @@
 # VoE
 
-A suite of [[Rust]] network block storage servers — "Venti over Ethernet", a [[Plan9]] homage to Venti, Bell Labs' content-addressed archival store — with pluggable protocols ([[AoE]], NBD, [[Iscsi]]) and a CAS backend that does block-level deduplication and immutable snapshots.
+A suite of [[Rust]] network block storage servers — "Venti over Ethernet", a [[Plan9]] homage to Venti, Bell Labs' content-addressed archival store — with pluggable protocols ([[AoE]], NBD, [[ISCSI]]) and a CAS backend that does block-level deduplication and immutable snapshots.
 
 **Repo:** `~/Git/VoE`
 

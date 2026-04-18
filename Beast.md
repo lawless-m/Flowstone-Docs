@@ -6,7 +6,7 @@ A server-class machine with a single Haswell Xeon, 64 GB ECC RAM, and a software
 
 Issued IP 192.168.102.74 
 
-[[Wireguard]] endpoint 10.99.0.3
+[[WireGuard]] endpoint 10.99.0.3
 
 Here's the hardware summary:                                                                                                                                                                                                                                          
 
