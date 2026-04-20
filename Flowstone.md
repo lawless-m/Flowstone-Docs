@@ -2,7 +2,7 @@
 
 A [[Rust]] [[CLITools]] tool that turns a folder of Markdown files into a queryable knowledge graph, backed by [[CozoDB]] and [[Datalog]].
 
-**Repo:** `~/Git/Flowstone`
+[Repo](https://github.com/lawless-m/Flowstone)
 
 Flowstone parses `[[WikiLink]]` syntax (and `#tags`) out of plain Markdown, loads notes, links and tags into [[CozoDB]] as relations, and gives you two ways to explore the graph: a Datalog REPL, or an Axum-hosted web UI with a [[D3]] force graph, a tag sidebar, [[FullTextSearch]] via Cozo's [[Tantivy]] FTS, a filesystem watcher that reloads on edit, and a detail panel that renders each note's Markdown body with clickable wiki-links. Notes are the source of truth — the database is purely derived and rebuilt on each run.
 
