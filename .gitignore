@@ -1,2 +1,16 @@
 .flowstone.db
 Flowstone-Docs.zip
+# --- build & tooling (auto-added) ---
+[Bb]in/
+[Oo]bj/
+publish/
+publish-trimmed/
+build/
+build32/
+[Dd]ebug/
+[Rr]elease/
+.claude/
+.devlog/
+.vscode/
+.claude/settings.local.json
+~$*
