@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.0",
+  "session_id": "65ca6276-578f-4bd5-9e2c-4d21180b2900",
+  "timestamp": "2026-04-15T20:40:49.283992916+00:00",
+  "machine_id": "roob",
+  "project_dir": "/home/matt/Git/Flowstone-Docs",
+  "git": {
+    "remote": "git@github.com:lawless-m/Flowstone-Docs.git",
+    "branch": "main",
+    "commit": "520eb1848445a9e6a9069d2cbc9a42af434c2689"
+  },
+  "conversation": [
+    {
+      "type": "user",
+      "timestamp": "2026-04-15T20:39:10.672Z",
+      "content": "i've ended up with parquet and Parquet, i want to standardize on Parquet"
+    },
+    {
+      "type": "assistant",
+      "timestamp": "2026-04-15T20:39:13.791Z",
+      "content": "Looking at the git status, `Parquet.md` was deleted and `parquet.md` was modified. Let me check the current state.",
+      "usage": {
+        "input_tokens": 3,
+        "output_tokens": 186,
+        "cache_creation_input_tokens": 7561,
+        "cache_read_input_tokens": 12070
+      }
+    },
+    {
+      "type": "tool_summary",
+      "actions": [
+        "searched for *arquet*"
+      ]
+    },
+    {
+      "type": "tool_summary",
+      "actions": [
+        "ran git status"
+      ]
+    },
+    {
+      "type": "assistant",
+      "timestamp": "2026-04-15T20:39:31.086Z",
+      "content": "`Parquet.md` was deleted from disk and `parquet.md` has the current content. I'll rename `parquet.md` to `Parquet.md`.",
+      "usage": {
+        "input_tokens": 1,
+        "output_tokens": 615,
+        "cache_creation_input_tokens": 647,
+        "cache_read_input_tokens": 19844
+      }
+    },
+    {
+      "type": "tool_summary",
+      "actions": [
+        "ran mv parquet.md Parquet.md"
+      ]
+    },
+    {
+      "type": "tool_summary",
+      "actions": [
+        "ran git status"
+      ]
+    },
+    {
+      "type": "assistant",
+      "timestamp": "2026-04-15T20:39:46.638Z",
+      "content": "Git now sees `parquet.md` as deleted and `Parquet.md` is back to its committed state (clean). I just need to stage the `parquet.md` deletion.",
+      "usage": {
+        "input_tokens": 1,
+        "output_tokens": 780,
+        "cache_creation_input_tokens": 282,
+        "cache_read_input_tokens": 21124
+      }
+    },
+    {
+      "type": "tool_summary",
+      "actions": [
+        "ran git rm parquet.md"
+      ]
+    },
+    {
+      "type": "tool_summary",
+      "actions": [
+        "ran git status"
+      ]
+    },
+    {
+      "type": "assistant",
+      "timestamp": "2026-04-15T20:39:55.706Z",
+      "content": "`Parquet.md` is restored and clean, `parquet.md` is staged for deletion. Do you want me to commit that?",
+      "usage": {
+        "input_tokens": 1,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 1037,
+        "cache_read_input_tokens": 21406
+      }
+    },
+    {
+      "type": "user",
+      "timestamp": "2026-04-15T20:40:10.403Z",
+      "content": "yes but also all the links to parquet need fixing"
+    },
+    {
+      "type": "tool_summary",
+      "actions": [
+        "searched for parquet\\.md"
+      ]
+    },
+    {
+      "type": "tool_summary",
+      "actions": [
+        "searched for \\[\\[parquet\\]\\]"
+      ]
+    },
+    {
+      "type": "tool_summary",
+      "actions": [
+        "searched for parquet"
+      ]
+    },
+    {
+      "type": "tool_summary",
+      "actions": [
+        "searched for parquet"
+      ]
+    },
+    {
+      "type": "tool_summary",
+      "actions": [
+        "ran grep -n \"parquet\\|Parquet\" BPQuery.md"
+      ]
+    },
+    {
+      "type": "assistant",
+      "timestamp": "2026-04-15T20:40:34.218Z",
+      "content": "All the `[[parquet]]` links need capitalizing. I'll fix them all in one go, then commit everything.",
+      "usage": {
+        "input_tokens": 1,
+        "output_tokens": 372,
+        "cache_creation_input_tokens": 630,
+        "cache_read_input_tokens": 24428
+      }
+    },
+    {
+      "type": "tool_summary",
+      "actions": [
+        "ran sed -i 's/\\[\\[parquet\\]\\]/[[Parquet]]/g' BPQuer..."
+      ]
+    },
+    {
+      "type": "tool_summary",
+      "actions": [
+        "ran grep -rl \"\\[\\[parquet\\]\\]\" *.md"
+      ]
+    },
+    {
+      "type": "assistant",
+      "timestamp": "2026-04-15T20:40:39.416Z",
+      "content": "All clean. Now committing:",
+      "usage": {
+        "input_tokens": 1,
+        "output_tokens": 240,
+        "cache_creation_input_tokens": 500,
+        "cache_read_input_tokens": 25058
+      }
+    },
+    {
+      "type": "tool_summary",
+      "actions": [
+        "ran git add BPQuery.md DrPQ.md JordanPrice.md Elast..."
+      ]
+    },
+    {
+      "type": "assistant",
+      "timestamp": "2026-04-15T20:40:43.153Z",
+      "content": "Done. 12 files updated — `parquet.md` deleted, 11 files had their `[[parquet]]` links corrected to `[[Parquet]]`.",
+      "usage": {
+        "input_tokens": 1,
+        "output_tokens": 42,
+        "cache_creation_input_tokens": 414,
+        "cache_read_input_tokens": 25558
+      }
+    }
+  ]
+}
